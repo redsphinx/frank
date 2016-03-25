@@ -1,0 +1,128 @@
+Conclusion: no big difference in performance of the meta methods with a J48 tree as base classifier
+
+
+BaggingML
+2 att - 3 att
+accuracy: 0.56 - 0.559
+
+Label indices                  [     0     1     2     3     4     5     6     7     8 ]
+Accuracy (per label)           [ 0.780 0.668 0.704 0.545 0.614 0.756 0.794 0.642 0.602 ]
+
+Label indices                  [     0     1     2     3     4     5     6     7     8 ]
+Accuracy (per label)           [ 0.779 0.672 0.708 0.547 0.630 0.756 0.795 0.650 0.612 ]
+
+Total Time                     212.706
+
+Total Time                     405.646
+
+-----------------------------------------------------------------------------
+
+BaggingMdup
+2 att - 3 att
+accuracy: 0.554 - 0.555
+
+Label indices                  [     0     1     2     3     4     5     6     7     8 ]
+Accuracy (per label)           [ 0.779 0.666 0.702 0.546 0.608 0.755 0.792 0.630 0.589 ]
+
+Label indices                  [     0     1     2     3     4     5     6     7     8 ]
+Accuracy (per label)           [ 0.779 0.672 0.707 0.544 0.628 0.755 0.793 0.647 0.610 ]
+
+Total Time                     192.36
+
+Total Time                     312.785
+
+-----------------------------------------------------------------------------
+
+DeepML
+2 att - 3 att
+accuracy: 0.501 - 0.501
+
+Label indices                  [     0     1     2     3     4     5     6     7     8 ]
+Accuracy (per label)           [ 0.773 0.594 0.643 0.512 0.576 0.738 0.770 0.626 0.507 ]
+
+Label indices                  [     0     1     2     3     4     5     6     7     8 ]
+Accuracy (per label)           [ 0.773 0.594 0.643 0.512 0.576 0.738 0.770 0.626 0.507 ]
+
+Total Time                     1238.704
+
+Total Time                     1370.113
+
+-----------------------------------------------------------------------------
+
+EM
+2 att - 3 att
+accuracy: 0.554 - 0.554
+
+Label indices                  [     0     1     2     3     4     5     6     7     8 ]
+Accuracy (per label)           [ 0.781 0.656 0.693 0.534 0.523 0.750 0.790 0.495 0.574 ]
+
+Label indices                  [     0     1     2     3     4     5     6     7     8 ]
+Accuracy (per label)           [ 0.780 0.658 0.695 0.538 0.525 0.749 0.792 0.498 0.575 ]
+
+Total Time                     750.918
+
+Total Time                     1129.623
+
+-----------------------------------------------------------------------------
+
+EnsembleML
+2 att - 3 att
+accuracy: 0.537 - 0.534
+
+Label indices                  [     0     1     2     3     4     5     6     7     8 ]
+Accuracy (per label)           [ 0.780 0.665 0.702 0.539 0.601 0.755 0.788 0.630 0.563 ]
+
+Label indices                  [     0     1     2     3     4     5     6     7     8 ]
+Accuracy (per label)           [ 0.780 0.668 0.706 0.537 0.601 0.755 0.791 0.630 0.562 ]
+
+Total Time                     154.97
+
+Total Time                     212.2
+
+-----------------------------------------------------------------------------
+
+MBR
+2 att - 3 att
+accuracy: 0.558 - 0.559
+
+Label indices                  [     0     1     2     3     4     5     6     7     8 ]
+Accuracy (per label)           [ 0.781 0.675 0.708 0.548 0.653 0.756 0.795 0.664 0.637 ]
+
+Label indices                  [     0     1     2     3     4     5     6     7     8 ]
+Accuracy (per label)           [ 0.780 0.675 0.709 0.548 0.664 0.756 0.797 0.672 0.642 ]
+
+Total Time                     40.472
+
+Total Time                     74.005
+
+-----------------------------------------------------------------------------
+
+RandomSubspaceML
+2 att - 3 att
+accuracy: 0.551 - 0.547
+
+Label indices                  [     0     1     2     3     4     5     6     7     8 ]
+Accuracy (per label)           [ 0.776 0.646 0.691 0.533 0.567 0.753 0.788 0.609 0.570 ]
+
+Label indices                  [     0     1     2     3     4     5     6     7     8 ]
+Accuracy (per label)           [ 0.777 0.650 0.695 0.531 0.562 0.753 0.787 0.619 0.567 ]
+
+Total Time                     115.734
+
+Total Time                     131.365
+
+-----------------------------------------------------------------------------
+
+SubsetMapper
+2 att - 3 att
+accuracy: 0.558 - 0.557
+
+Label indices                  [     0     1     2     3     4     5     6     7     8 ]
+Accuracy (per label)           [ 0.781 0.675 0.709 0.549 0.653 0.756 0.795 0.663 0.636 ]
+
+Label indices                  [     0     1     2     3     4     5     6     7     8 ]
+Accuracy (per label)           [ 0.780 0.675 0.709 0.548 0.663 0.756 0.798 0.671 0.642 ]
+
+Total Time                     11.96
+
+Total Time                     22.842
