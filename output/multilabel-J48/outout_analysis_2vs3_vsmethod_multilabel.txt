@@ -1,0 +1,20 @@
+meka.classifiers.multilabel.BCC
+Accuracy                       0.549
+Accuracy                       0.548 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+meka.classifiers.multilabel.BPNN 
+Accuracy                       0.501
+Accuracy                       0.501
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+meka.classifiers.multilabel.BR
+Accuracy                       0.558
+Accuracy                       0.559
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+meka.classifiers.multilabel.BRq:wq
+
