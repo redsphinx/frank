@@ -1,0 +1,99 @@
+== Model info
+
+Model                          
+meka.classifiers.multilabel.CC: Node #1
+
+Random forest of 100 trees, each constructed while considering 2 random features.
+Out of bag error: 0.2383
+
+
+
+meka.classifiers.multilabel.CC: Node #2
+
+Random forest of 100 trees, each constructed while considering 3 random features.
+Out of bag error: 0.2673
+
+
+
+meka.classifiers.multilabel.CC: Node #3
+
+Random forest of 100 trees, each constructed while considering 3 random features.
+Out of bag error: 0.1664
+
+
+
+meka.classifiers.multilabel.CC: Node #4
+
+Random forest of 100 trees, each constructed while considering 3 random features.
+Out of bag error: 0.4303
+
+
+
+meka.classifiers.multilabel.CC: Node #5
+
+Random forest of 100 trees, each constructed while considering 3 random features.
+Out of bag error: 0.1872
+
+
+
+meka.classifiers.multilabel.CC: Node #6
+
+Random forest of 100 trees, each constructed while considering 4 random features.
+Out of bag error: 0.1401
+
+
+
+meka.classifiers.multilabel.CC: Node #7
+
+Random forest of 100 trees, each constructed while considering 4 random features.
+Out of bag error: 0.0909
+
+
+
+meka.classifiers.multilabel.CC: Node #8
+
+Random forest of 100 trees, each constructed while considering 4 random features.
+Out of bag error: 0.2115
+
+
+
+meka.classifiers.multilabel.CC: Node #9
+
+Random forest of 100 trees, each constructed while considering 4 random features.
+Out of bag error: 0.1538
+
+
+
+== Evaluation Info
+
+Classifier                     meka.classifiers.multilabel.CC
+Options                        [-S, 0, -W, weka.classifiers.trees.RandomForest, --, -I, 100, -K, 0, -S, 1, -num-slots, 1]
+Additional Info                [0, 1, 2, 3, 4, 5, 6, 7, 8]
+Dataset                        restaurant_objects_labels
+Number of labels (L)           9
+Type                           ML
+Threshold                      1.0
+Verbosity                      1
+
+
+== Predictive Performance
+
+Number of test instances (N)   
+Accuracy                       0.554
+Jaccard index                  0.554
+Hamming score                  0.662
+Exact match                    0.146
+
+
+== Additional Measurements
+
+Number of training instances   137305
+Number of test instances       91537
+Label cardinality (train set)  4.759
+Label cardinality (test set)   4.765
+Build Time                     542.824
+Test Time                      158.243
+Total Time                     701.067
+
+
+
