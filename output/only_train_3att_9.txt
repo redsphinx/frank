@@ -1,0 +1,246 @@
+== Model info
+
+Model                          
+meka.classifiers.multilabel.CT: Node #1
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0      * (normalized) obj1
+ +       0.0003 * (normalized) obj2
+ +       0.0004 * (normalized) obj3
+ -       1.0003
+
+Number of kernel evaluations: 18278683 (49.771% cached)
+
+
+
+meka.classifiers.multilabel.CT: Node #2
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -2.0005 * (normalized) lbl0
+ +       0.0002 * (normalized) obj1
+ +       0      * (normalized) obj2
+ +       0.0004 * (normalized) obj3
+ +       0.9999
+
+Number of kernel evaluations: -1331371789
+
+
+
+meka.classifiers.multilabel.CT: Node #3
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.0007 * (normalized) lbl1
+ +      -0.0004 * (normalized) obj1
+ +      -0.0002 * (normalized) obj2
+ +       0.0009 * (normalized) obj3
+ -       1.0004
+
+Number of kernel evaluations: -609984286
+
+
+
+meka.classifiers.multilabel.CT: Node #4
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.9997 * (normalized) lbl0
+ +       0      * (normalized) obj1
+ +       0.0001 * (normalized) obj2
+ +      -0.0004 * (normalized) obj3
+ -       0.9997
+
+Number of kernel evaluations: 726081581 (39.572% cached)
+
+
+
+meka.classifiers.multilabel.CT: Node #5
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.0001 * (normalized) lbl1
+ +       0.0007 * (normalized) lbl3
+ +       0.0002 * (normalized) obj1
+ +      -0.001  * (normalized) obj2
+ +       0.0001 * (normalized) obj3
+ -       1     
+
+Number of kernel evaluations: -354101516
+
+
+
+meka.classifiers.multilabel.CT: Node #6
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.9996 * (normalized) lbl2
+ +       2      * (normalized) lbl4
+ +       0.0006 * (normalized) obj1
+ +       0      * (normalized) obj2
+ +      -0.0003 * (normalized) obj3
+ -       1     
+
+Number of kernel evaluations: 1325046704 (33.687% cached)
+
+
+
+meka.classifiers.multilabel.CT: Node #7
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0005 * (normalized) lbl3
+ +      -0.0005 * (normalized) obj1
+ +       0.0005 * (normalized) obj2
+ +      -0.0001 * (normalized) obj3
+ +       0.9998
+
+Number of kernel evaluations: 61003262 (48.545% cached)
+
+
+
+meka.classifiers.multilabel.CT: Node #8
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.0004 * (normalized) lbl4
+ +       0.0002 * (normalized) lbl6
+ +       0.0003 * (normalized) obj1
+ +      -0.0001 * (normalized) obj2
+ +      -0.0009 * (normalized) obj3
+ -       1     
+
+Number of kernel evaluations: -1009813011
+
+
+
+meka.classifiers.multilabel.CT: Node #9
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0008 * (normalized) lbl5
+ +      -2      * (normalized) lbl7
+ +       0.0007 * (normalized) obj1
+ +      -0.0004 * (normalized) obj2
+ +       0      * (normalized) obj3
+ +       1.0003
+
+Number of kernel evaluations: -1308398119
+
+
+
+== Evaluation Info
+
+Classifier                     meka.classifiers.multilabel.CT
+Options                        [-H, -1, -L, 1, -X, Ibf, -Is, 0, -Iy, 10, -P, Exact match, -S, 0, -W, weka.classifiers.functions.SMO, --, -C, 1.0, -L, 0.001, -P, 1.0E-12, -N, 0, -V, -1, -W, 1, -K, weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007]
+Additional Info                0.0
+Dataset                        restaurant_objects_labels
+Number of labels (L)           9
+Type                           ML
+Threshold                      1.0
+Verbosity                      1
+
+
+== Predictive Performance
+
+Number of test instances (N)   
+Accuracy                       0.524
+Jaccard index                  0.524
+Hamming score                  0.591
+Exact match                    0.138
+
+
+== Additional Measurements
+
+Number of training instances   137305
+Number of test instances       91537
+Label cardinality (train set)  4.759
+Label cardinality (test set)   4.765
+Build Time                     2289.602
+Test Time                      5.876
+Total Time                     2295.478
+
+
+
