@@ -1,0 +1,33 @@
+== Evaluation Info
+
+Classifier                     meka.classifiers.multilabel.FW
+Options                        [-W, weka.classifiers.trees.RandomForest, --, -I, 100, -K, 0, -S, 1, -num-slots, 1]
+Additional Info                
+Dataset                        restaurant_objects_labels
+Number of labels (L)           9
+Type                           ML
+Threshold                      5.0
+Verbosity                      1
+
+
+== Predictive Performance
+
+Number of test instances (N)   
+Accuracy                       0.559
+Jaccard index                  0.559
+Hamming score                  0.685
+Exact match                    0.131
+
+
+== Additional Measurements
+
+Number of training instances   137305
+Number of test instances       91537
+Label cardinality (train set)  4.759
+Label cardinality (test set)   4.765
+Build Time                     1307.979
+Test Time                      657.398
+Total Time                     1965.377
+
+
+
