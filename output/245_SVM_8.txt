@@ -1,0 +1,33 @@
+== Evaluation Info
+
+Classifier                     meka.classifiers.multilabel.CDT
+Options                        [-H, -1, -L, 1, -X, None, -I, 1000, -Ic, 100, -S, 0, -W, weka.classifiers.functions.SMO, --, -C, 1.0, -L, 0.001, -P, 1.0E-12, -N, 0, -V, -1, -W, 1, -K, weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007]
+Additional Info                
+Dataset                        restaurant_lots_of_features
+Number of labels (L)           9
+Type                           ML
+Threshold                      1.0E-5
+Verbosity                      1
+
+
+== Predictive Performance
+
+Number of test instances (N)   
+Accuracy                       0.642
+Jaccard index                  0.642
+Hamming score                  0.789
+Exact match                    0.195
+
+
+== Additional Measurements
+
+Number of training instances   1200
+Number of test instances       800
+Label cardinality (train set)  4.287
+Label cardinality (test set)   4.394
+Build Time                     1.784
+Test Time                      65.082
+Total Time                     66.866
+
+
+

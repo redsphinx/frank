@@ -1,0 +1,33 @@
+== Evaluation Info
+
+Classifier                     meka.classifiers.multilabel.BR
+Options                        [-W, weka.classifiers.rules.JRip, --, -F, 3, -N, 2.0, -O, 2, -S, 1]
+Additional Info                
+Dataset                        restaurant_lots_of_features
+Number of labels (L)           9
+Type                           ML
+Threshold                      0.32228915662650603
+Verbosity                      1
+
+
+== Predictive Performance
+
+Number of test instances (N)   
+Accuracy                       0.608
+Jaccard index                  0.608
+Hamming score                  0.762
+Exact match                    0.099
+
+
+== Additional Measurements
+
+Number of training instances   1200
+Number of test instances       800
+Label cardinality (train set)  4.287
+Label cardinality (test set)   4.394
+Build Time                     6.956
+Test Time                      0.059
+Total Time                     7.015
+
+
+

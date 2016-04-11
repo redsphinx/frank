@@ -1,0 +1,173 @@
+== Model info
+
+Model                          
+meka.classifiers.multilabel.CT: Node #1
+
+JRIP rules:
+===========
+
+(obj223 <= 0.034483) and (obj165 >= 0.037037) and (obj131 <= 0.014706) => lbl0-=1 (107.0/29.0)
+(obj234 <= 0.052632) and (obj56 >= 0.006897) and (obj194 >= 0.037037) and (obj235 <= 0.011905) => lbl0-=1 (57.0/9.0)
+(obj223 <= 0.066667) and (obj211 >= 0.027027) => lbl0-=1 (200.0/87.0)
+(obj224 <= 0.004167) and (obj223 <= 0.020833) and (obj164 >= 0.02) => lbl0-=1 (25.0/5.0)
+(obj108 >= 0.026316) and (obj180 <= 0.026316) and (obj194 >= 0.111111) => lbl0-=1 (17.0/1.0)
+(obj200 >= 0.090909) and (obj171 <= 0.03125) and (obj177 <= 0.008696) => lbl0-=1 (76.0/30.0)
+(obj234 <= 0.052632) and (obj220 >= 1) => lbl0-=1 (12.0/1.0)
+ => lbl0-=0 (706.0/77.0)
+
+Number of Rules : 8
+
+
+meka.classifiers.multilabel.CT: Node #2
+
+JRIP rules:
+===========
+
+(obj180 <= 0.05) and (obj56 >= 0.007874) => lbl1-=0 (213.0/29.0)
+(obj224 <= 0.006211) and (obj200 >= 0.2) and (obj108 >= 0.010309) => lbl1-=0 (137.0/14.0)
+(obj143 <= 0.5) and (obj245 <= 0.012987) => lbl1-=0 (91.0/16.0)
+(obj157 <= 0.013333) and (obj242 >= 0.026316) and (obj109 >= 0.045455) and (obj132 <= 0.02381) and (obj224 <= 0.029412) => lbl1-=0 (61.0/6.0)
+(lbl0- = 1) => lbl1-=0 (151.0/72.0)
+(obj244 >= 0.016393) and (obj147 >= 0.023256) and (obj72 <= 0.037037) => lbl1-=0 (27.0/4.0)
+ => lbl1-=1 (520.0/59.0)
+
+Number of Rules : 7
+
+
+meka.classifiers.multilabel.CT: Node #3
+
+JRIP rules:
+===========
+
+(lbl1- = 0) and (obj224 <= 0.007937) and (obj143 <= 0.333333) => lbl2-=0 (226.0/9.0)
+(lbl1- = 0) and (obj224 <= 0.004484) => lbl2-=0 (216.0/32.0)
+(obj157 <= 0.013333) and (obj180 <= 0.043478) and (obj143 <= 0.333333) => lbl2-=0 (57.0/7.0)
+(lbl1- = 0) and (obj200 >= 0.142857) and (obj154 >= 0.009524) => lbl2-=0 (21.0/2.0)
+(lbl1- = 0) and (obj180 <= 0.0625) and (obj110 >= 0.018182) => lbl2-=0 (22.0/4.0)
+(obj234 <= 0.027027) and (obj112 >= 0.02439) and (obj74 <= 0.026316) => lbl2-=0 (19.0/2.0)
+(obj157 <= 0.009524) and (obj200 >= 0.083333) and (obj184 >= 0.005525) => lbl2-=0 (29.0/9.0)
+ => lbl2-=1 (610.0/68.0)
+
+Number of Rules : 8
+
+
+meka.classifiers.multilabel.CT: Node #4
+
+JRIP rules:
+===========
+
+(obj95 >= 0.014085) => lbl3-=1 (532.0/174.0)
+ => lbl3-=0 (668.0/222.0)
+
+Number of Rules : 2
+
+
+meka.classifiers.multilabel.CT: Node #5
+
+JRIP rules:
+===========
+
+(lbl1- = 1) and (obj234 >= 0.083333) and (obj200 <= 0.076923) and (obj175 >= 0.01087) => lbl4-=1 (148.0/18.0)
+(lbl1- = 1) and (obj200 <= 0.03125) and (obj223 >= 0.111111) => lbl4-=1 (39.0/5.0)
+(lbl1- = 1) and (obj234 >= 0.076923) and (obj122 >= 0.012195) and (obj20 >= 0.005882) => lbl4-=1 (17.0/0.0)
+(lbl1- = 1) and (obj234 >= 0.058824) and (obj165 <= 0.041667) and (obj157 >= 0.014925) and (obj76 >= 0.012821) => lbl4-=1 (35.0/6.0)
+(lbl1- = 1) and (obj108 <= 0.013889) and (obj220 <= 0.014286) and (obj89 <= 0.011236) => lbl4-=1 (29.0/8.0)
+(lbl1- = 1) and (obj223 >= 0.090909) and (obj109 <= 0.02381) and (obj137 >= 0.017241) => lbl4-=1 (18.0/3.0)
+(obj97 >= 0.009091) and (obj97 >= 0.083333) => lbl4-=1 (12.0/1.0)
+(lbl1- = 1) and (obj200 <= 0.038462) and (obj242 >= 0.016949) and (obj151 <= 0) => lbl4-=1 (18.0/3.0)
+ => lbl4-=0 (884.0/53.0)
+
+Number of Rules : 9
+
+
+meka.classifiers.multilabel.CT: Node #6
+
+JRIP rules:
+===========
+
+(lbl2- = 0) and (obj224 <= 0.008547) => lbl5-=0 (472.0/100.0)
+(obj157 <= 0.012987) and (obj147 >= 0.034483) and (obj108 >= 0.043478) => lbl5-=0 (13.0/1.0)
+(obj175 <= 0) and (obj211 >= 0.028571) and (obj126 >= 0.003891) => lbl5-=0 (11.0/1.0)
+ => lbl5-=1 (704.0/57.0)
+
+Number of Rules : 4
+
+
+meka.classifiers.multilabel.CT: Node #7
+
+JRIP rules:
+===========
+
+(obj143 <= 0.333333) => lbl6-=0 (328.0/83.0)
+(obj224 <= 0.006623) and (obj112 >= 0.007813) and (lbl3- = 1) => lbl6-=0 (59.0/16.0)
+(obj224 <= 0.004484) and (obj234 <= 0.038462) and (obj83 >= 0.016667) => lbl6-=0 (41.0/14.0)
+(obj194 >= 0.142857) and (obj164 >= 0.043478) => lbl6-=0 (11.0/2.0)
+ => lbl6-=1 (761.0/65.0)
+
+Number of Rules : 5
+
+
+meka.classifiers.multilabel.CT: Node #8
+
+JRIP rules:
+===========
+
+(lbl4- = 1) => lbl7-=1 (325.0/98.0)
+(obj157 >= 0.02) and (obj245 >= 0.166667) and (obj171 <= 0.076923) => lbl7-=1 (33.0/9.0)
+(obj224 >= 0.020408) and (obj112 <= 0.007042) and (obj104 <= 0.015873) => lbl7-=1 (27.0/9.0)
+(obj180 >= 0.125) and (obj224 >= 0.02381) and (obj18 >= 0.006897) => lbl7-=1 (19.0/5.0)
+ => lbl7-=0 (796.0/46.0)
+
+Number of Rules : 5
+
+
+meka.classifiers.multilabel.CT: Node #9
+
+JRIP rules:
+===========
+
+(obj224 >= 0.012048) and (lbl7- = 1) => lbl8-=0 (256.0/49.0)
+(lbl5- = 1) and (obj108 <= 0.017241) and (obj67 >= 0.019608) and (obj5 >= 0.008547) and (obj180 >= 0.111111) => lbl8-=0 (51.0/2.0)
+(lbl5- = 1) and (obj200 <= 0.030303) and (obj108 <= 0.019608) and (obj104 >= 0.02381) => lbl8-=0 (28.0/1.0)
+(lbl5- = 1) and (obj163 >= 0.055556) and (obj145 >= 0.009091) and (obj134 <= 0.009615) => lbl8-=0 (42.0/7.0)
+(lbl5- = 1) and (obj223 >= 0.125) and (obj108 <= 0.013889) and (obj158 >= 0.076923) => lbl8-=0 (22.0/1.0)
+(obj211 <= 0.019608) and (obj164 >= 0.026316) and (obj160 >= 0.090909) and (obj128 <= 0.1) and (obj155 >= 0.02) => lbl8-=0 (26.0/4.0)
+(obj224 >= 0.006061) and (obj175 >= 0.013889) and (obj134 <= 0.014493) => lbl8-=0 (33.0/10.0)
+ => lbl8-=1 (742.0/84.0)
+
+Number of Rules : 8
+
+
+== Evaluation Info
+
+Classifier                     meka.classifiers.multilabel.CT
+Options                        [-H, -1, -L, 1, -X, Ibf, -Is, 0, -Iy, 10, -P, Exact match, -S, 0, -W, weka.classifiers.rules.JRip, --, -F, 3, -N, 2.0, -O, 2, -S, 1]
+Additional Info                0.0
+Dataset                        restaurant_lots_of_features
+Number of labels (L)           9
+Type                           ML
+Threshold                      1.0E-5
+Verbosity                      1
+
+
+== Predictive Performance
+
+Number of test instances (N)   
+Accuracy                       0.619
+Jaccard index                  0.619
+Hamming score                  0.772
+Exact match                    0.157
+
+
+== Additional Measurements
+
+Number of training instances   1200
+Number of test instances       800
+Label cardinality (train set)  4.287
+Label cardinality (test set)   4.394
+Build Time                     5.987
+Test Time                      0.256
+Total Time                     6.243
+
+
+
