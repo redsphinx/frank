@@ -1,0 +1,171 @@
+== Model info
+
+Model                          
+meka.classifiers.multilabel.CC: Node #1
+
+JRIP rules:
+===========
+
+(obj223 <= 0.034483) and (obj165 >= 0.037037) and (obj131 <= 0.014706) => lbl0-=1 (107.0/29.0)
+(obj234 <= 0.052632) and (obj56 >= 0.006897) and (obj194 >= 0.037037) and (obj235 <= 0.011905) => lbl0-=1 (57.0/9.0)
+(obj223 <= 0.066667) and (obj211 >= 0.027027) => lbl0-=1 (200.0/87.0)
+(obj224 <= 0.004167) and (obj223 <= 0.020833) and (obj164 >= 0.02) => lbl0-=1 (25.0/5.0)
+(obj108 >= 0.026316) and (obj180 <= 0.026316) and (obj194 >= 0.111111) => lbl0-=1 (17.0/1.0)
+(obj200 >= 0.090909) and (obj171 <= 0.03125) and (obj177 <= 0.008696) => lbl0-=1 (76.0/30.0)
+(obj234 <= 0.052632) and (obj220 >= 1) => lbl0-=1 (12.0/1.0)
+ => lbl0-=0 (706.0/77.0)
+
+Number of Rules : 8
+
+
+meka.classifiers.multilabel.CC: Node #2
+
+JRIP rules:
+===========
+
+(obj180 <= 0.05) and (obj56 >= 0.007874) => lbl1-=0 (213.0/29.0)
+(obj224 <= 0.006211) and (obj200 >= 0.2) and (obj108 >= 0.010309) => lbl1-=0 (137.0/14.0)
+(obj143 <= 0.5) and (obj245 <= 0.012987) => lbl1-=0 (91.0/16.0)
+(obj157 <= 0.013333) and (obj242 >= 0.026316) and (obj109 >= 0.045455) and (obj132 <= 0.02381) and (obj224 <= 0.029412) => lbl1-=0 (61.0/6.0)
+(lbl0- = 1) => lbl1-=0 (151.0/72.0)
+(obj244 >= 0.016393) and (obj147 >= 0.023256) and (obj72 <= 0.037037) => lbl1-=0 (27.0/4.0)
+ => lbl1-=1 (520.0/59.0)
+
+Number of Rules : 7
+
+
+meka.classifiers.multilabel.CC: Node #3
+
+JRIP rules:
+===========
+
+(lbl1- = 0) and (obj224 <= 0) => lbl2-=0 (436.0/40.0)
+(obj180 <= 0.038462) and (obj143 <= 0.333333) => lbl2-=0 (81.0/13.0)
+(obj200 >= 0.142857) and (lbl1- = 0) and (obj147 >= 0.018182) => lbl2-=0 (37.0/7.0)
+(obj157 <= 0.014286) and (obj83 >= 0.018519) and (obj171 <= 0.03125) => lbl2-=0 (32.0/10.0)
+(obj157 <= 0.014286) and (obj200 >= 0.083333) and (obj72 <= 0.012048) => lbl2-=0 (20.0/5.0)
+ => lbl2-=1 (594.0/62.0)
+
+Number of Rules : 6
+
+
+meka.classifiers.multilabel.CC: Node #4
+
+JRIP rules:
+===========
+
+(obj95 >= 0.018868) => lbl3-=1 (439.0/127.0)
+(obj163 >= 0.028571) and (obj180 <= 0.025) => lbl3-=1 (58.0/19.0)
+ => lbl3-=0 (703.0/229.0)
+
+Number of Rules : 3
+
+
+meka.classifiers.multilabel.CC: Node #5
+
+JRIP rules:
+===========
+
+(lbl2- = 1) and (obj200 <= 0.058824) and (obj157 >= 0.021739) and (obj234 >= 0.125) => lbl4-=1 (104.0/12.0)
+(lbl2- = 1) and (obj223 >= 0.125) and (obj85 <= 0.007576) and (obj200 <= 0.111111) => lbl4-=1 (124.0/27.0)
+(lbl2- = 1) and (obj200 <= 0.0625) and (obj19 >= 0.005988) and (obj234 >= 0.055556) => lbl4-=1 (19.0/2.0)
+(lbl2- = 1) and (obj211 <= 0.010309) and (obj239 >= 0.004878) and (obj149 <= 0.002985) and (obj242 <= 0.043478) => lbl4-=1 (32.0/4.0)
+(lbl2- = 1) and (lbl0- = 0) and (obj165 <= 0.041667) and (obj202 <= 0.004132) => lbl4-=1 (100.0/47.0)
+ => lbl4-=0 (821.0/38.0)
+
+Number of Rules : 6
+
+
+meka.classifiers.multilabel.CC: Node #6
+
+JRIP rules:
+===========
+
+(lbl2- = 0) and (obj224 <= 0.009709) and (obj151 <= 0.006369) and (obj56 >= 0.003704) => lbl5-=0 (155.0/14.0)
+(lbl2- = 0) and (obj224 <= 0.009804) and (obj234 >= 0.010309) and (obj163 <= 0.04) and (obj165 <= 0.030303) and (obj85 <= 0.020833) => lbl5-=0 (82.0/6.0)
+(obj224 <= 0.006211) and (lbl2- = 0) and (obj110 >= 0.038462) => lbl5-=0 (76.0/15.0)
+(lbl2- = 0) and (obj163 <= 0.032258) and (obj151 <= 0.012195) => lbl5-=0 (143.0/45.0)
+(obj211 >= 0.015873) and (obj145 <= 0) and (obj129 >= 0.015385) and (lbl4- = 0) => lbl5-=0 (11.0/0.0)
+(obj224 <= 0.013699) and (obj147 >= 0.055556) and (obj109 >= 0.055556) => lbl5-=0 (19.0/5.0)
+(lbl1- = 0) and (obj52 >= 0.014925) and (obj30 >= 0.058824) => lbl5-=0 (14.0/2.0)
+ => lbl5-=1 (700.0/38.0)
+
+Number of Rules : 8
+
+
+meka.classifiers.multilabel.CC: Node #7
+
+JRIP rules:
+===========
+
+(lbl5- = 0) and (obj128 <= 0.043478) and (obj143 <= 0.333333) => lbl6-=0 (180.0/9.0)
+(lbl2- = 0) and (lbl0- = 1) and (lbl5- = 0) and (obj180 <= 0.090909) => lbl6-=0 (81.0/4.0)
+(lbl2- = 0) and (lbl0- = 1) and (obj146 >= 0.025) and (obj163 <= 0.035714) => lbl6-=0 (57.0/15.0)
+(lbl2- = 0) and (obj131 <= 0.013333) and (obj234 <= 0.047619) and (obj111 >= 0.018868) => lbl6-=0 (56.0/15.0)
+(lbl2- = 0) and (obj104 >= 0.038462) and (obj114 >= 0.012821) and (obj171 <= 0.076923) and (obj9 <= 0.006173) => lbl6-=0 (21.0/4.0)
+(lbl2- = 0) and (obj119 >= 0.014706) and (obj222 >= 0.009259) => lbl6-=0 (12.0/3.0)
+ => lbl6-=1 (793.0/32.0)
+
+Number of Rules : 7
+
+
+meka.classifiers.multilabel.CC: Node #8
+
+JRIP rules:
+===========
+
+(lbl4- = 1) => lbl7-=1 (325.0/98.0)
+(lbl2- = 1) and (obj175 >= 0.014706) and (obj163 <= 0.038462) and (obj109 <= 0.033333) => lbl7-=1 (28.0/3.0)
+(lbl2- = 1) and (obj194 <= 0.025) and (obj164 >= 0.021739) and (obj202 >= 0.011905) => lbl7-=1 (12.0/0.0)
+(lbl2- = 1) and (obj211 <= 0.006494) and (obj119 >= 0.005376) and (obj157 >= 0.014493) => lbl7-=1 (13.0/0.0)
+ => lbl7-=0 (822.0/52.0)
+
+Number of Rules : 5
+
+
+meka.classifiers.multilabel.CC: Node #9
+
+JRIP rules:
+===========
+
+(lbl4- = 1) => lbl8-=0 (325.0/47.0)
+(obj224 >= 0.007752) and (obj175 >= 0.006098) and (obj163 >= 0.035714) => lbl8-=0 (78.0/17.0)
+(lbl5- = 1) and (lbl7- = 1) and (obj160 >= 0.111111) => lbl8-=0 (41.0/12.0)
+ => lbl8-=1 (756.0/100.0)
+
+Number of Rules : 4
+
+
+== Evaluation Info
+
+Classifier                     meka.classifiers.multilabel.CC
+Options                        [-S, 0, -W, weka.classifiers.rules.JRip, --, -F, 3, -N, 2.0, -O, 2, -S, 1]
+Additional Info                [0, 1, 2, 3, 4, 5, 6, 7, 8]
+Dataset                        restaurant_lots_of_features
+Number of labels (L)           9
+Type                           ML
+Threshold                      1.0E-5
+Verbosity                      1
+
+
+== Predictive Performance
+
+Number of test instances (N)   
+Accuracy                       0.617
+Jaccard index                  0.617
+Hamming score                  0.766
+Exact match                    0.179
+
+
+== Additional Measurements
+
+Number of training instances   1200
+Number of test instances       800
+Label cardinality (train set)  4.287
+Label cardinality (test set)   4.394
+Build Time                     4.936
+Test Time                      0.038
+Total Time                     4.974
+
+
+

@@ -1,0 +1,107 @@
+
+
+Evaluation Options:
+
+-h
+	Output help information.
+-t <name of training file>
+	Sets training file.
+-T <name of test file>
+	Sets test file.
+-x <number of folds>
+	Do cross-validation with this many folds.
+-R
+	Randomize the order of instances in the dataset.
+-split-percentage <percentage>
+	Sets the percentage for the train/test set split, e.g., 66.
+-split-number <number>
+	Sets the number of training examples, e.g., 800
+-i
+	Invert the specified train/test split.
+-s <random number seed>
+	Sets random number seed (use with -R, for different CV or train/test splits).
+-threshold <threshold>
+	Sets the type of thresholding; where
+		'PCut1' automatically calibrates a threshold (the default);
+		'PCutL' automatically calibrates one threshold for each label;
+		any number, e.g. '0.5', specifies that threshold.
+-C <number of labels>
+	Sets the number of target variables (labels) to assume (indexed from the beginning).
+-d <classifier_file>
+	Specify a file to dump classifier into.
+-l <classifier_file>
+	Specify a file to load classifier from.
+-verbosity <verbosity level>
+	Specify more/less evaluation output
+
+
+Classifier Options:
+
+-P
+	Sets the downsampling ratio        
+	default: 0.75	(of original)
+-S
+	The seed value for randomization
+	default: 0
+-W
+	Full name of base classifier.
+	(default: weka.classifiers.trees.J48)
+-output-debug-info
+	If set, classifier is run in debug mode and
+	may output additional info to the console
+--do-not-check-capabilities
+	If set, classifier capabilities are not checked before classifier is built
+	(use with caution).
+-
+
+-no-checks
+	Turns off all checks - use with caution!
+	Turning them off assumes that data is purely numeric, doesn't
+	contain any missing values, and has a nominal class. Turning them
+	off also means that no header information will be stored if the
+	machine is linear. Finally, it also assumes that no instance has
+	a weight equal to 0.
+	(default: checks on)
+-C
+	The complexity constant C. (default 1)
+-N
+	Whether to 0=normalize/1=standardize/2=neither. (default 0=normalize)
+-L
+	The tolerance parameter. (default 1.0e-3)
+-P
+	The epsilon for round-off error. (default 1.0e-12)
+-M
+	Fit logistic models to SVM outputs. 
+-V
+	The number of folds for the internal
+	cross-validation. (default -1, use training data)
+-W
+	The random number seed. (default 1)
+-K
+	The Kernel to use.
+	(default: weka.classifiers.functions.supportVector.PolyKernel)
+-output-debug-info
+	If set, classifier is run in debug mode and
+	may output additional info to the console
+--do-not-check-capabilities
+	If set, classifier capabilities are not checked before classifier is built
+	(use with caution).
+-
+
+-E
+	The Exponent to use.
+	(default: 1.0)
+-L
+	Use lower-order terms.
+	(default: no)
+-C
+	The size of the cache (a prime number), 0 for full cache and 
+	-1 to turn it off.
+	(default: 250007)
+-output-debug-info
+	Enables debugging output (if available) to be printed.
+	(default: off)
+-no-checks
+	Turns off all checks - use with caution!
+	(default: checks on)
+
