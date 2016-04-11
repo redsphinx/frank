@@ -1,5 +1,5 @@
 % yelp train data
-@relation 'restaurant_lots-of_features: -C -9'
+@relation 'restaurant_lots_of_features: -C -9'
 
 @attribute obj1 numeric
 @attribute obj2 numeric
