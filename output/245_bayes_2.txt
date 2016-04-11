@@ -1,0 +1,34 @@
+[245, 10, 9]
+== Evaluation Info
+
+Classifier                     meka.classifiers.multilabel.BPNN
+Options                        [-H, 10, -E, 1000, -r, 0.1, -m, 0.1, -W, weka.classifiers.bayes.BayesNet, --, -Q, weka.classifiers.bayes.net.search.local.K2, --, -P, 1, -S, BAYES, -E, weka.classifiers.bayes.net.estimate.SimpleEstimator, --, -A, 0.5]
+Additional Info                h=10, E=1000
+Dataset                        restaurant_lots_of_features
+Number of labels (L)           9
+Type                           ML
+Threshold                      0.5186785331155157
+Verbosity                      1
+
+
+== Predictive Performance
+
+Number of test instances (N)   
+Accuracy                       0.652
+Jaccard index                  0.652
+Hamming score                  0.797
+Exact match                    0.184
+
+
+== Additional Measurements
+
+Number of training instances   1200
+Number of test instances       800
+Label cardinality (train set)  4.287
+Label cardinality (test set)   4.394
+Build Time                     72.732
+Test Time                      0.016
+Total Time                     72.748
+
+
+
