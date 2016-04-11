@@ -6,9 +6,9 @@ java -cp "./lib/*" meka.classifiers.multilabel.BPNN -t data/train255.arff -W wek
 java -cp "./lib/*" meka.classifiers.multilabel.BR -t data/train255.arff -W weka.classifiers.trees.RandomForest > output/245_randomforest_3.txt
 java -cp "./lib/*" meka.classifiers.multilabel.BRq -t data/train255.arff -W weka.classifiers.trees.RandomForest > output/245_randomforest_4.txt
 java -cp "./lib/*" meka.classifiers.multilabel.CC -t data/train255.arff -W weka.classifiers.trees.RandomForest > output/245_randomforest_5.txt
-java -cp "./lib/*" meka.classifiers.multilabel.CCq -t data/train_255.arff -W weka.classifiers.trees.RandomForest > output/245_randomforest_6.txt
-java -cp "./lib/*" meka.classifiers.multilabel.CDN -t data/train_255.arff -W weka.classifiers.trees.RandomForest > output/245_randomforest_7.txt
-java -cp "./lib/*" meka.classifiers.multilabel.CDT -t data/train_255.arff -W weka.classifiers.trees.RandomForest > output/245_randomforest_8.txt
-java -cp "./lib/*" meka.classifiers.multilabel.CT -t data/train_255.arff -W weka.classifiers.trees.RandomForest > output/245_randomforest_9.txt
-java -cp "./lib/*" meka.classifiers.multilabel.DBPNN -t data/train_255.arff -W weka.classifiers.trees.RandomForest > output/245_randomforest_10.txt
+java -cp "./lib/*" meka.classifiers.multilabel.CCq -t data/train255.arff -W weka.classifiers.trees.RandomForest > output/245_randomforest_6.txt
+java -cp "./lib/*" meka.classifiers.multilabel.CDN -t data/train255.arff -W weka.classifiers.trees.RandomForest > output/245_randomforest_7.txt
+java -cp "./lib/*" meka.classifiers.multilabel.CDT -t data/train255.arff -W weka.classifiers.trees.RandomForest > output/245_randomforest_8.txt
+java -cp "./lib/*" meka.classifiers.multilabel.CT -t data/train255.arff -W weka.classifiers.trees.RandomForest > output/245_randomforest_9.txt
+java -cp "./lib/*" meka.classifiers.multilabel.DBPNN -t data/train255.arff -W weka.classifiers.trees.RandomForest > output/245_randomforest_10.txt
 # sleep 300
