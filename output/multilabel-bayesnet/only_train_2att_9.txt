@@ -1,0 +1,192 @@
+== Model info
+
+Model                          
+meka.classifiers.multilabel.CT: Node #1
+
+Bayes Network Classifier
+Using ADTree
+#attributes=3 #classindex=0
+Network structure (nodes followed by parents)
+lbl0(2): 
+obj1(39): lbl0 
+obj2(46): lbl0 
+LogScore Bayes: -901969.6566767176
+LogScore BDeu: -902797.4224906291
+LogScore MDL: -902650.7744052195
+LogScore ENTROPY: -901662.9727445766
+LogScore AIC: -901829.9727445766
+
+
+meka.classifiers.multilabel.CT: Node #2
+
+Bayes Network Classifier
+Using ADTree
+#attributes=4 #classindex=1
+Network structure (nodes followed by parents)
+lbl0(2): lbl1 
+lbl1(2): 
+obj1(53): lbl1 
+obj2(47): lbl1 
+LogScore Bayes: -999571.9467925589
+LogScore BDeu: -1000596.4811755378
+LogScore MDL: -1000404.1148180031
+LogScore ENTROPY: -999227.0337972371
+LogScore AIC: -999426.0337972371
+
+
+meka.classifiers.multilabel.CT: Node #3
+
+Bayes Network Classifier
+Using ADTree
+#attributes=4 #classindex=1
+Network structure (nodes followed by parents)
+lbl1(2): lbl2 
+lbl2(2): 
+obj1(67): lbl2 
+obj2(50): lbl2 
+LogScore Bayes: -1030758.0355081725
+LogScore BDeu: -1032015.392282943
+LogScore MDL: -1031773.5234720485
+LogScore ENTROPY: -1030395.3331311515
+LogScore AIC: -1030628.3331311515
+
+
+meka.classifiers.multilabel.CT: Node #4
+
+Bayes Network Classifier
+Using ADTree
+#attributes=4 #classindex=1
+Network structure (nodes followed by parents)
+lbl0(2): lbl3 
+lbl3(2): 
+obj1(13): lbl3 
+obj2(14): lbl3 
+LogScore Bayes: -635337.8177278658
+LogScore BDeu: -635507.739823419
+LogScore MDL: -635501.728563811
+LogScore ENTROPY: -635188.234623607
+LogScore AIC: -635241.234623607
+
+
+meka.classifiers.multilabel.CT: Node #5
+
+Bayes Network Classifier
+Using ADTree
+#attributes=5 #classindex=2
+Network structure (nodes followed by parents)
+lbl1(2): lbl4 
+lbl3(2): lbl4 
+lbl4(2): 
+obj1(63): lbl4 
+obj2(51): lbl4 
+LogScore Bayes: -1138158.1514787178
+LogScore BDeu: -1139374.2981873206
+LogScore MDL: -1139136.8511055645
+LogScore ENTROPY: -1137782.3206846828
+LogScore AIC: -1138011.3206846828
+
+
+meka.classifiers.multilabel.CT: Node #6
+
+Bayes Network Classifier
+Using ADTree
+#attributes=5 #classindex=2
+Network structure (nodes followed by parents)
+lbl2(2): lbl5 
+lbl4(2): lbl5 
+lbl5(2): 
+obj1(64): lbl5 
+obj2(57): lbl5 
+LogScore Bayes: -1106218.036438642
+LogScore BDeu: -1107529.1389150769
+LogScore MDL: -1107290.3795433184
+LogScore ENTROPY: -1105853.039402383
+LogScore AIC: -1106096.039402383
+
+
+meka.classifiers.multilabel.CT: Node #7
+
+Bayes Network Classifier
+Using ADTree
+#attributes=4 #classindex=1
+Network structure (nodes followed by parents)
+lbl3(2): lbl6 
+lbl6(2): 
+obj1(67): lbl6 
+obj2(64): lbl6 
+LogScore Bayes: -1090164.8691813517
+LogScore BDeu: -1091613.3557975395
+LogScore MDL: -1091337.7596382143
+LogScore ENTROPY: -1089793.9498572096
+LogScore AIC: -1090054.9498572096
+
+
+meka.classifiers.multilabel.CT: Node #8
+
+Bayes Network Classifier
+Using ADTree
+#attributes=5 #classindex=2
+Network structure (nodes followed by parents)
+lbl4(2): lbl7 
+lbl6(2): lbl7 
+lbl7(2): 
+obj1(45): lbl7 
+obj2(59): lbl7 
+LogScore Bayes: -1093766.1663055688
+LogScore BDeu: -1094848.0241135415
+LogScore MDL: -1094641.9046259592
+LogScore ENTROPY: -1093405.6738051546
+LogScore AIC: -1093614.6738051546
+
+
+meka.classifiers.multilabel.CT: Node #9
+
+Bayes Network Classifier
+Using ADTree
+#attributes=5 #classindex=2
+Network structure (nodes followed by parents)
+lbl5(2): lbl8 
+lbl7(2): lbl8 
+lbl8(2): 
+obj1(63): lbl8 
+obj2(54): lbl8 
+LogScore Bayes: -1117442.8505650556
+LogScore BDeu: -1118699.2306539638
+LogScore MDL: -1118454.5549583824
+LogScore ENTROPY: -1117064.5346574779
+LogScore AIC: -1117299.5346574779
+
+
+== Evaluation Info
+
+Classifier                     meka.classifiers.multilabel.CT
+Options                        [-H, -1, -L, 1, -X, Ibf, -Is, 0, -Iy, 10, -P, Exact match, -S, 0, -W, weka.classifiers.bayes.BayesNet, --, -Q, weka.classifiers.bayes.net.search.local.K2, --, -P, 1, -S, BAYES, -E, weka.classifiers.bayes.net.estimate.SimpleEstimator, --, -A, 0.5]
+Additional Info                0.0
+Dataset                        restaurant_objects_labels
+Number of labels (L)           9
+Type                           ML
+Threshold                      1.0
+Verbosity                      1
+
+
+== Predictive Performance
+
+Number of test instances (N)   
+Accuracy                       0.546
+Jaccard index                  0.546
+Hamming score                  0.657
+Exact match                    0.147
+
+
+== Additional Measurements
+
+Number of training instances   137305
+Number of test instances       91537
+Label cardinality (train set)  4.759
+Label cardinality (test set)   4.765
+Build Time                     21.952
+Test Time                      10.466
+Total Time                     32.418
+
+
+
