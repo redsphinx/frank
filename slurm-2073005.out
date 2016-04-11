@@ -1,0 +1,17 @@
+java.io.IOException: premature end of line, read Token[EOL], line 2016
+	at weka.core.converters.ArffLoader$ArffReader.errorMessage(ArffLoader.java:354)
+	at weka.core.converters.ArffLoader$ArffReader.getNextToken(ArffLoader.java:452)
+	at weka.core.converters.ArffLoader$ArffReader.getInstanceFull(ArffLoader.java:706)
+	at weka.core.converters.ArffLoader$ArffReader.getInstance(ArffLoader.java:545)
+	at weka.core.converters.ArffLoader$ArffReader.readInstance(ArffLoader.java:514)
+	at weka.core.converters.ArffLoader$ArffReader.readInstance(ArffLoader.java:500)
+	at weka.core.converters.ArffLoader.getDataSet(ArffLoader.java:1244)
+	at weka.core.converters.ConverterUtils$DataSource.getDataSet(ConverterUtils.java:268)
+	at meka.classifiers.multilabel.Evaluation.loadDataset(Evaluation.java:487)
+	at meka.classifiers.multilabel.Evaluation.loadDataset(Evaluation.java:460)
+	at meka.classifiers.multilabel.Evaluation.runExperiment(Evaluation.java:56)
+	at meka.classifiers.multilabel.ProblemTransformationMethod.runClassifier(ProblemTransformationMethod.java:172)
+	at meka.classifiers.multilabel.ProblemTransformationMethod.evaluation(ProblemTransformationMethod.java:152)
+	at meka.classifiers.multilabel.BCC.main(BCC.java:242)
+
+java.lang.Exception: [Error] Failed to Get Options from @Relation Name
