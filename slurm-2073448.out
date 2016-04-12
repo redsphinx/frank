@@ -1,0 +1,135 @@
+java.io.IOException: premature end of line, read Token[EOL], line 261
+	at weka.core.converters.ArffLoader$ArffReader.errorMessage(ArffLoader.java:354)
+	at weka.core.converters.ArffLoader$ArffReader.getNextToken(ArffLoader.java:452)
+	at weka.core.converters.ArffLoader$ArffReader.getInstanceFull(ArffLoader.java:706)
+	at weka.core.converters.ArffLoader$ArffReader.getInstance(ArffLoader.java:545)
+	at weka.core.converters.ArffLoader$ArffReader.readInstance(ArffLoader.java:514)
+	at weka.core.converters.ArffLoader$ArffReader.readInstance(ArffLoader.java:500)
+	at weka.core.converters.ArffLoader.getDataSet(ArffLoader.java:1244)
+	at weka.core.converters.ConverterUtils$DataSource.getDataSet(ConverterUtils.java:268)
+	at meka.classifiers.multilabel.Evaluation.loadDataset(Evaluation.java:487)
+	at meka.classifiers.multilabel.Evaluation.runExperiment(Evaluation.java:136)
+	at meka.classifiers.multilabel.ProblemTransformationMethod.runClassifier(ProblemTransformationMethod.java:172)
+	at meka.classifiers.multilabel.ProblemTransformationMethod.evaluation(ProblemTransformationMethod.java:152)
+	at meka.classifiers.multilabel.BR.main(BR.java:156)
+java.lang.Exception: [Error] Failed to Load Test Instances from file.
+	at meka.classifiers.multilabel.Evaluation.runExperiment(Evaluation.java:139)
+	at meka.classifiers.multilabel.ProblemTransformationMethod.runClassifier(ProblemTransformationMethod.java:172)
+	at meka.classifiers.multilabel.ProblemTransformationMethod.evaluation(ProblemTransformationMethod.java:152)
+	at meka.classifiers.multilabel.BR.main(BR.java:156)
+Caused by: java.lang.Exception: [Error] Failed to Get Options from @Relation Name
+	at meka.core.MLUtils.prepareData(MLUtils.java:1120)
+	at meka.classifiers.multilabel.Evaluation.runExperiment(Evaluation.java:137)
+	... 3 more
+Caused by: java.lang.NullPointerException
+	at meka.core.MLUtils.getDatasetOptions(MLUtils.java:43)
+	at meka.core.MLUtils.prepareData(MLUtils.java:1117)
+	... 4 more
+java.io.IOException: premature end of line, read Token[EOL], line 261
+	at weka.core.converters.ArffLoader$ArffReader.errorMessage(ArffLoader.java:354)
+	at weka.core.converters.ArffLoader$ArffReader.getNextToken(ArffLoader.java:452)
+	at weka.core.converters.ArffLoader$ArffReader.getInstanceFull(ArffLoader.java:706)
+	at weka.core.converters.ArffLoader$ArffReader.getInstance(ArffLoader.java:545)
+	at weka.core.converters.ArffLoader$ArffReader.readInstance(ArffLoader.java:514)
+	at weka.core.converters.ArffLoader$ArffReader.readInstance(ArffLoader.java:500)
+	at weka.core.converters.ArffLoader.getDataSet(ArffLoader.java:1244)
+	at weka.core.converters.ConverterUtils$DataSource.getDataSet(ConverterUtils.java:268)
+	at meka.classifiers.multilabel.Evaluation.loadDataset(Evaluation.java:487)
+	at meka.classifiers.multilabel.Evaluation.runExperiment(Evaluation.java:136)
+	at meka.classifiers.multilabel.ProblemTransformationMethod.runClassifier(ProblemTransformationMethod.java:172)
+	at meka.classifiers.multilabel.ProblemTransformationMethod.evaluation(ProblemTransformationMethod.java:152)
+	at meka.classifiers.multilabel.CC.main(CC.java:405)
+java.lang.Exception: [Error] Failed to Load Test Instances from file.
+	at meka.classifiers.multilabel.Evaluation.runExperiment(Evaluation.java:139)
+	at meka.classifiers.multilabel.ProblemTransformationMethod.runClassifier(ProblemTransformationMethod.java:172)
+	at meka.classifiers.multilabel.ProblemTransformationMethod.evaluation(ProblemTransformationMethod.java:152)
+	at meka.classifiers.multilabel.CC.main(CC.java:405)
+Caused by: java.lang.Exception: [Error] Failed to Get Options from @Relation Name
+	at meka.core.MLUtils.prepareData(MLUtils.java:1120)
+	at meka.classifiers.multilabel.Evaluation.runExperiment(Evaluation.java:137)
+	... 3 more
+Caused by: java.lang.NullPointerException
+	at meka.core.MLUtils.getDatasetOptions(MLUtils.java:43)
+	at meka.core.MLUtils.prepareData(MLUtils.java:1117)
+	... 4 more
+java.io.IOException: premature end of line, read Token[EOL], line 261
+	at weka.core.converters.ArffLoader$ArffReader.errorMessage(ArffLoader.java:354)
+	at weka.core.converters.ArffLoader$ArffReader.getNextToken(ArffLoader.java:452)
+	at weka.core.converters.ArffLoader$ArffReader.getInstanceFull(ArffLoader.java:706)
+	at weka.core.converters.ArffLoader$ArffReader.getInstance(ArffLoader.java:545)
+	at weka.core.converters.ArffLoader$ArffReader.readInstance(ArffLoader.java:514)
+	at weka.core.converters.ArffLoader$ArffReader.readInstance(ArffLoader.java:500)
+	at weka.core.converters.ArffLoader.getDataSet(ArffLoader.java:1244)
+	at weka.core.converters.ConverterUtils$DataSource.getDataSet(ConverterUtils.java:268)
+	at meka.classifiers.multilabel.Evaluation.loadDataset(Evaluation.java:487)
+	at meka.classifiers.multilabel.Evaluation.runExperiment(Evaluation.java:136)
+	at meka.classifiers.multilabel.ProblemTransformationMethod.runClassifier(ProblemTransformationMethod.java:172)
+	at meka.classifiers.multilabel.ProblemTransformationMethod.evaluation(ProblemTransformationMethod.java:152)
+	at meka.classifiers.multilabel.CDN.main(CDN.java:213)
+java.lang.Exception: [Error] Failed to Load Test Instances from file.
+	at meka.classifiers.multilabel.Evaluation.runExperiment(Evaluation.java:139)
+	at meka.classifiers.multilabel.ProblemTransformationMethod.runClassifier(ProblemTransformationMethod.java:172)
+	at meka.classifiers.multilabel.ProblemTransformationMethod.evaluation(ProblemTransformationMethod.java:152)
+	at meka.classifiers.multilabel.CDN.main(CDN.java:213)
+Caused by: java.lang.Exception: [Error] Failed to Get Options from @Relation Name
+	at meka.core.MLUtils.prepareData(MLUtils.java:1120)
+	at meka.classifiers.multilabel.Evaluation.runExperiment(Evaluation.java:137)
+	... 3 more
+Caused by: java.lang.NullPointerException
+	at meka.core.MLUtils.getDatasetOptions(MLUtils.java:43)
+	at meka.core.MLUtils.prepareData(MLUtils.java:1117)
+	... 4 more
+java.io.IOException: premature end of line, read Token[EOL], line 261
+	at weka.core.converters.ArffLoader$ArffReader.errorMessage(ArffLoader.java:354)
+	at weka.core.converters.ArffLoader$ArffReader.getNextToken(ArffLoader.java:452)
+	at weka.core.converters.ArffLoader$ArffReader.getInstanceFull(ArffLoader.java:706)
+	at weka.core.converters.ArffLoader$ArffReader.getInstance(ArffLoader.java:545)
+	at weka.core.converters.ArffLoader$ArffReader.readInstance(ArffLoader.java:514)
+	at weka.core.converters.ArffLoader$ArffReader.readInstance(ArffLoader.java:500)
+	at weka.core.converters.ArffLoader.getDataSet(ArffLoader.java:1244)
+	at weka.core.converters.ConverterUtils$DataSource.getDataSet(ConverterUtils.java:268)
+	at meka.classifiers.multilabel.Evaluation.loadDataset(Evaluation.java:487)
+	at meka.classifiers.multilabel.Evaluation.runExperiment(Evaluation.java:136)
+	at meka.classifiers.multilabel.ProblemTransformationMethod.runClassifier(ProblemTransformationMethod.java:172)
+	at meka.classifiers.multilabel.ProblemTransformationMethod.evaluation(ProblemTransformationMethod.java:152)
+	at meka.classifiers.multilabel.CDT.main(CDT.java:216)
+java.lang.Exception: [Error] Failed to Load Test Instances from file.
+	at meka.classifiers.multilabel.Evaluation.runExperiment(Evaluation.java:139)
+	at meka.classifiers.multilabel.ProblemTransformationMethod.runClassifier(ProblemTransformationMethod.java:172)
+	at meka.classifiers.multilabel.ProblemTransformationMethod.evaluation(ProblemTransformationMethod.java:152)
+	at meka.classifiers.multilabel.CDT.main(CDT.java:216)
+Caused by: java.lang.Exception: [Error] Failed to Get Options from @Relation Name
+	at meka.core.MLUtils.prepareData(MLUtils.java:1120)
+	at meka.classifiers.multilabel.Evaluation.runExperiment(Evaluation.java:137)
+	... 3 more
+Caused by: java.lang.NullPointerException
+	at meka.core.MLUtils.getDatasetOptions(MLUtils.java:43)
+	at meka.core.MLUtils.prepareData(MLUtils.java:1117)
+	... 4 more
+java.io.IOException: premature end of line, read Token[EOL], line 261
+	at weka.core.converters.ArffLoader$ArffReader.errorMessage(ArffLoader.java:354)
+	at weka.core.converters.ArffLoader$ArffReader.getNextToken(ArffLoader.java:452)
+	at weka.core.converters.ArffLoader$ArffReader.getInstanceFull(ArffLoader.java:706)
+	at weka.core.converters.ArffLoader$ArffReader.getInstance(ArffLoader.java:545)
+	at weka.core.converters.ArffLoader$ArffReader.readInstance(ArffLoader.java:514)
+	at weka.core.converters.ArffLoader$ArffReader.readInstance(ArffLoader.java:500)
+	at weka.core.converters.ArffLoader.getDataSet(ArffLoader.java:1244)
+	at weka.core.converters.ConverterUtils$DataSource.getDataSet(ConverterUtils.java:268)
+	at meka.classifiers.multilabel.Evaluation.loadDataset(Evaluation.java:487)
+	at meka.classifiers.multilabel.Evaluation.runExperiment(Evaluation.java:136)
+	at meka.classifiers.multilabel.ProblemTransformationMethod.runClassifier(ProblemTransformationMethod.java:172)
+	at meka.classifiers.multilabel.ProblemTransformationMethod.evaluation(ProblemTransformationMethod.java:152)
+	at meka.classifiers.multilabel.CT.main(CT.java:273)
+java.lang.Exception: [Error] Failed to Load Test Instances from file.
+	at meka.classifiers.multilabel.Evaluation.runExperiment(Evaluation.java:139)
+	at meka.classifiers.multilabel.ProblemTransformationMethod.runClassifier(ProblemTransformationMethod.java:172)
+	at meka.classifiers.multilabel.ProblemTransformationMethod.evaluation(ProblemTransformationMethod.java:152)
+	at meka.classifiers.multilabel.CT.main(CT.java:273)
+Caused by: java.lang.Exception: [Error] Failed to Get Options from @Relation Name
+	at meka.core.MLUtils.prepareData(MLUtils.java:1120)
+	at meka.classifiers.multilabel.Evaluation.runExperiment(Evaluation.java:137)
+	... 3 more
+Caused by: java.lang.NullPointerException
+	at meka.core.MLUtils.getDatasetOptions(MLUtils.java:43)
+	at meka.core.MLUtils.prepareData(MLUtils.java:1117)
+	... 4 more
